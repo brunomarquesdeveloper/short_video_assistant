@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Short Video Assistant",
   description:
     "Simplifique a rotina de criadores de conteúdo com corte de vídeos no navegador e notificações Web Push para agendamento de Reels, TikTok e Shorts.",
-  manifest: "/manifest.json",
+  manifest: "/manifest.webmanifest",
   icons: {
     icon: "/icon-192.png",
     apple: "/icon-192.png",
