@@ -5,10 +5,10 @@
 - [x] configurar estrutura do projeto e dependencias iniciais
 
 ## Módulo 1: Estruturação Base e PWA
-- [ ]  configurar projeto react typescript com tailwind css
-- [ ]  configurar manifesto web app e icones
-- [ ]  registrar service worker para suporte offline
-- [ ] implementar estrutura de layout mobile-first
+- [x]  configurar projeto react typescript com tailwind css
+- [x]  configurar manifesto web app e icones
+- [x]  registrar service worker para suporte offline
+- [x] implementar estrutura de layout mobile-first
 
 ## Módulo 2: Interface e Gestão de Mídia
 - [ ] adicionar componente de upload de video com pré-visualizacao
