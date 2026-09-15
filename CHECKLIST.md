@@ -11,7 +11,7 @@
 - [x] implementar estrutura de layout mobile-first
 
 ## Módulo 2: Interface e Gestão de Mídia
-- [ ] adicionar componente de upload de video com pré-visualizacao
+- [x] adicionar componente de upload de video com pré-visualizacao
 - [ ] criar formulario de metadados para legenda e agendamento
 - [ ] adicionar painel para listar videos agendados e processados
 - [ ] implementar status em tempo real da fila de processamento
