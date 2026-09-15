@@ -12,9 +12,9 @@
 
 ## Módulo 2: Interface e Gestão de Mídia
 - [x] adicionar componente de upload de video com pré-visualizacao
-- [ ] criar formulario de metadados para legenda e agendamento
-- [ ] adicionar painel para listar videos agendados e processados
-- [ ] implementar status em tempo real da fila de processamento
+- [x] criar formulario de metadados para legenda e agendamento
+- [x] adicionar painel para listar videos agendados e processados
+- [x] implementar status em tempo real da fila de processamento
 
 ## Módulo 3: Processamento de Vídeo (FFmpeg & BullMQ)
 - [ ] configurar cliente de conexao com redis
