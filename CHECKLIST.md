@@ -17,7 +17,7 @@
 - [x] implementar status em tempo real da fila de processamento
 
 ## Módulo 3: Processamento de Vídeo (FFmpeg & BullMQ)
-- [ ] configurar cliente de conexao com redis
+- [x] configurar cliente de conexao com redis
 - [ ] configurar fila de processamento em segundo plano com bullmq
 - [ ] implementar script ffmpeg para conversao de proporcao 9:16
 - [ ] dicionar tratamento de erros e tentativas automaticas
