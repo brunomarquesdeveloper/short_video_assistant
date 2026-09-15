@@ -1,9 +1,13 @@
 const CACHE_NAME = 'short-video-assistant-v1';
+
+// Ajustado para coincidir exatamente com os arquivos do site.webmanifest
 const ASSETS_TO_CACHE = [
   '/',
-  '/manifest.webmanifest',
-  '/icon-192.png',
-  '/icon-512.png'
+  '/site.webmanifest',
+  '/favicon.ico',
+  '/apple-touch-icon.png',
+  '/android-chrome-192x192.png',
+  '/android-chrome-512x512.png'
 ];
 
 self.addEventListener('install', (event) => {
@@ -32,7 +36,11 @@ self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) return cachedResponse;
-      return fetch(event.request).catch(() => caches.match('/'));
+      
+      return fetch(event.request).catch(() => {
+        // Fallback para a página principal caso o recurso não esteja em cache e esteja offline
+        return caches.match('/') || caches.match('/index.html');
+      });
     })
   );
 });
